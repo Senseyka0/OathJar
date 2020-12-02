@@ -1,5 +1,5 @@
-@import url(blocks/base.css);
-@import url(blocks/header.css);
-@import url(blocks/further.css);
-@import url(blocks/about.css);
-@import url(blocks/footer.css);
+@import url(/css/blocks/base.css);
+@import url(/css/blocks/header.css);
+@import url(/css/blocks/further.css);
+@import url(/css/blocks/about.css);
+@import url(/css/blocks/footer.css);

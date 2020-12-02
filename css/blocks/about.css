@@ -4,12 +4,14 @@
   margin-top: -50px;
   overflow: hidden;
 }
+
 @media (min-width: 1140px) {
   .about {
     padding-top: 150px;
     margin: 0;
   }
 }
+
 .about-wrapper {
   margin-top: -10px;
   display: -webkit-box;
@@ -24,6 +26,7 @@
           justify-content: space-between;
   position: relative;
 }
+
 @media (min-width: 1140px) {
   .about-wrapper {
     -webkit-box-orient: horizontal;
@@ -46,6 +49,7 @@
     z-index: 0;
   }
 }
+
 .about-content {
   -webkit-box-ordinal-group: 0;
       -ms-flex-order: -1;
@@ -55,11 +59,13 @@
   z-index: 1;
   margin-bottom: 50px;
 }
+
 @media (min-width: 800px) and (max-width: 1140px) {
   .about-content {
     margin-bottom: 100px;
   }
 }
+
 @media (min-width: 1140px) {
   .about-content {
     -webkit-box-ordinal-group: 1;
@@ -68,6 +74,7 @@
     width: 555px;
   }
 }
+
 .about-content__toogle {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +90,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
 @media (min-width: 720px) {
   .about-content__toogle {
     -webkit-box-align: start;
@@ -94,6 +102,7 @@
             flex-direction: row;
   }
 }
+
 .about-content__toogle .toogle-elm {
   margin-top: 15px;
   text-align: center;
@@ -112,16 +121,19 @@
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
 }
+
 .about-content__toogle .toogle-elm:hover {
   background-color: #eb6e38;
   color: #fff;
 }
+
 @media (min-width: 450px) and (max-width: 715px) {
   .about-content__toogle .toogle-elm {
     padding-left: 130px;
     padding-right: 130px;
   }
 }
+
 @media (min-width: 1140px) {
   .about-content__toogle .toogle-elm {
     padding-left: 0;
@@ -129,6 +141,7 @@
     margin-top: 0;
   }
 }
+
 .about-content__title {
   text-align: center;
   margin-top: 42px;
@@ -137,12 +150,14 @@
   font-weight: 700;
   line-height: 23.99px;
 }
+
 @media (min-width: 1140px) {
   .about-content__title {
     margin-top: 92px;
     text-align: left;
   }
 }
+
 .about-content__descr {
   margin-top: 30px;
   text-align: center;
@@ -152,11 +167,13 @@
   font-weight: 300;
   line-height: 35.99px;
 }
+
 @media (min-width: 320px) {
   .about-content__descr {
     width: auto;
   }
 }
+
 @media (min-width: 1140px) {
   .about-content__descr {
     font-size: 22px;
@@ -165,6 +182,7 @@
     width: 490px;
   }
 }
+
 .about-cards {
   margin-left: 90px;
   width: 488px;
@@ -179,16 +197,19 @@
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
 @media (min-width: 320px) and (max-width: 400px) {
   .about-cards {
     margin-left: 50px;
   }
 }
+
 @media (min-width: 800px) and (max-width: 1140px) {
   .about-cards {
     margin-left: 200px;
   }
 }
+
 @media (min-width: 600px) {
   .about-cards {
     -webkit-box-orient: horizontal;
@@ -197,6 +218,7 @@
             flex-direction: row;
   }
 }
+
 @media (min-width: 1140px) {
   .about-cards {
     margin-left: 0;
@@ -207,21 +229,25 @@
             flex-direction: row;
   }
 }
+
 .about-cards .cards-2-column {
   padding-top: 60px;
   padding-left: 0;
 }
+
 @media (min-width: 600px) {
   .about-cards .cards-2-column {
     padding-top: 175px;
   }
 }
+
 @media (min-width: 1140px) {
   .about-cards .cards-2-column {
     padding-top: 175px;
     padding-left: 60px;
   }
 }
+
 .about-cards .card {
   margin-bottom: 61px;
   width: 175px;
@@ -235,9 +261,11 @@
   transition: 0.3s ease-in;
   color: #2e435e;
 }
+
 .about-cards .card:last-child {
   margin-bottom: 0;
 }
+
 .about-cards .card:hover {
   -webkit-box-shadow: 4px 7px 32px rgba(235, 90, 56, 0.52);
           box-shadow: 4px 7px 32px rgba(235, 90, 56, 0.52);
@@ -246,32 +274,40 @@
   background-image: linear-gradient(to top, #eb5238 0%, #eb6f38 100%);
   color: #fff;
 }
+
 .about-cards .card:hover .card__circle {
   background-color: #fff;
   background-color: rgba(255, 255, 255, 0.2);
 }
+
 .about-cards .card:hover .card__circle-inner {
   background-color: #fff;
 }
+
 .about-cards .card:hover .card__circle .svg-path {
   fill: #0d3e60;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
 }
+
 .about-cards .card:hover .svg-read-more {
   fill: #fff;
 }
+
 .about-cards .card:hover .card__read-more__link {
   left: 130px;
 }
+
 .about-cards .card:hover .card__read-more__text {
   opacity: 1;
 }
+
 .about-cards .card__title {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
 }
+
 .about-cards .card__descr {
   margin-top: 35px;
   width: 162px;
@@ -279,6 +315,7 @@
   font-weight: 400;
   line-height: 24px;
 }
+
 .about-cards .card__read-more {
   margin-top: 33px;
   padding-bottom: 35px;
@@ -290,6 +327,7 @@
   position: relative;
   height: 20px;
 }
+
 .about-cards .card__read-more__link {
   position: absolute;
   top: 0;
@@ -297,6 +335,7 @@
   -webkit-transition: 0.5s ease-in;
   transition: 0.5s ease-in;
 }
+
 .about-cards .card__read-more__text {
   padding-right: 15px;
   position: absolute;
@@ -312,11 +351,13 @@
   font-weight: 400;
   line-height: 24px;
 }
+
 .about-cards .card__read-more .svg-read-more {
   fill: #fff9df;
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
 }
+
 .about-cards .card__circle {
   position: absolute;
   top: 0;
@@ -332,9 +373,11 @@
   -webkit-transition: 0.3s ease-in;
   transition: 0.3s ease-in;
 }
+
 .about-cards .card__circle .svg-path {
   fill: #fff;
 }
+
 .about-cards .card__circle-inner {
   position: absolute;
   left: 7px;
